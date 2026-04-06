@@ -1,0 +1,21 @@
+# 상황 인식 기반 제주도 여행 추천 알고리즘 - FastAPI 서버
+# Capstone Design Project: 상황 대응형 제주 여행 플래너
+
+# 데이터 과학 및 알고리즘
+numpy>=1.24.0
+scipy>=1.10.0
+
+# FastAPI 웹 프레임워크
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# HTTP 클라이언트 (날씨 API 연동용)
+requests>=2.31.0
+httpx>=0.25.0
+
+# Python 표준 라이브러리 (requirements.txt에 포함할 필요 없음):
+# - itertools
+# - math
+# - sys
+# - abc
